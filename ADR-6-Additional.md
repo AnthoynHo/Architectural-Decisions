@@ -1,0 +1,6 @@
+<h1>Context</h1>
+Must connect with several API's to enable features such as payment, location, restaurant inventory and notifications. Additionally the team will need to make a security layer to protect user data and prevent unauthorized access.
+<h1>Decision</h1>
+The app will hook into a mail account and the local device if applicable to send notifications. Restaurant inventory and menu will be handled by web scraping or out own API for others to use. Location will come from Google Maps API and GPS. Payment will be handled by a third party API such as PayPal or Stripe. Security will be handled by the team.
+<h1>Consequences</h1>
+Many of these APIs will open security vulnerabilities in our app. The team will need to devote time to learning how to use these APIs and how to implement them into the app. Additionally the team will need to develop our own API for restaurants to hook into. The team will also need to devote time to learning how to make a secure app and how to implement security features.
